@@ -1,0 +1,426 @@
+RallyDemo.main({ });
+******************************************************************************************************
+****ESTA SIMULACIÓN CONCLUYE ANTES DE FINALIZAR EL CAMPEONATO CON UN ÚNICO PILOTO SIN DESCALIFICAR****
+******************************************************************************************************
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||| CIRCUITOS DEL CAMPEONATO |||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+<circuito:Finlandia> <cond: Nocturno Frio Mojado> <comp: ALTA(original:1.5)(actual:2.28)> <dist: CORTA(original:250.0)(actual:153.0)>
+<circuito:Cerdeña> <cond: Gravilla Mojado> <comp: ALTA(original:1.5)(actual:1.82)> <dist: CORTA(original:250.0)(actual:201.88)>
+<circuito:Córcega> <cond: Nocturno Gravilla> <comp: MEDIA(original:1.25)(actual:1.58)> <dist: INTERMEDIA(original:275.0)(actual:209.0)>
+<circuito:Chile> <cond: Gravilla> <comp: ALTA(original:1.5)(actual:1.58)> <dist: CORTA(original:250.0)(actual:237.5)>
+<circuito:Portugal> <cond: Gravilla Nocturno> <comp: MEDIA(original:1.25)(actual:1.57)> <dist: INTERMEDIA(original:275.0)(actual:209.0)>
+<circuito:Alemania> <cond: Mojado> <comp: MEDIA(original:1.25)(actual:1.44)> <dist: INTERMEDIA(original:275.0)(actual:233.75)>
+<circuito:Australia> <cond: Gravilla> <comp: BAJA(original:1.0)(actual:1.05)> <dist: LARGA(original:300.0)(actual:285.0)>
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% ESCUDERÍAS DEL CAMPEONATO %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% SEAT %%%
+<piloto:McRae> <tipo: PilotoEstrella> <dest: 0.93> <conc: CONCENTRADO(110.0)> <descalificado:false>
+<piloto:Ogier> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false>
+<piloto:Blomquist> <tipo: PilotoNovato> <dest: 0.7> <conc: DESPISTADO(90.0)> <descalificado:false>
+<coche: Seat Tarraco> <tipo: CocheResistente> <vel_teó: TORTUGA(200.0)> <comb: GENEROSO(460.0)(actual:460.0)>> <reserva: 100.0>
+<coche: Seat Ateca> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: GENEROSO(460.0)(actual:460.0)>> <nitroPendiente: 80.0>
+<coche: Seat Arona> <tipo: CocheNormal> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:350.0)>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% PEUGEOT %%%
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:false>
+<piloto:Sordo> <tipo: PilotoNovato> <dest: 0.7> <conc: DESPISTADO(90.0)> <descalificado:false>
+<coche: Peugeot 5008> <tipo: CocheResistente> <vel_teó: LENTA(210.0)> <comb: GENEROSO(460.0)(actual:460.0)>> <reserva: 100.0>
+<coche: Peugeot 3008> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: NORMAL(440.0)(actual:440.0)>> <nitroPendiente: 80.0>
+<coche: Peugeot 2008> <tipo: CocheNormal> <vel_teó: NORMAL(220.0)> <comb: ESCASO(350.0)(actual:350.0)>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CITROEN %%%
+<piloto:Auriol> <tipo: PilotoNovato> <dest: 0.78> <conc: NORMAL(100.0)> <descalificado:false>
+<piloto:Loeb> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false>
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<coche: Citröen C3> <tipo: CocheNormal> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:350.0)>
+<coche: Citröen C4> <tipo: CocheRapido> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:350.0)>> <nitroPendiente: 80.0>
+<coche: Citröen C5> <tipo: CocheResistente> <vel_teó: RAPIDA(230.0)> <comb: ELEFANTE(480.0)(actual:480.0)>> <reserva: 100.0>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+********************************************************************************************************
+*** CARRERA<1> EN <circuito:Finlandia> <cond: Nocturno Frio Mojado> <comp: ALTA(original:1.5)(actual:2.28)> <dist: CORTA(original:250.0)(actual:153.0)> ***
+********************************************************************************************************
+********************************************************************************************************
+******************************** Pilotos que van a competir en Finlandia *******************************
+**********************************************************************************************************
+<piloto:Loeb> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false>
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:false>
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<piloto:McRae> <tipo: PilotoEstrella> <dest: 0.93> <conc: CONCENTRADO(110.0)> <descalificado:false>
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<piloto:Auriol> <tipo: PilotoNovato> <dest: 0.78> <conc: NORMAL(100.0)> <descalificado:false>
+<piloto:Blomquist> <tipo: PilotoNovato> <dest: 0.7> <conc: DESPISTADO(90.0)> <descalificado:false>
+<piloto:Ogier> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false>
+<piloto:Sordo> <tipo: PilotoNovato> <dest: 0.7> <conc: DESPISTADO(90.0)> <descalificado:false>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++ Comienza la carrera en Finlandia ++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@ Piloto 1 de 9
+<piloto:Auriol> <tipo: PilotoNovato> <dest: 0.78> <conc: NORMAL(100.0)> <descalificado:false> con 
+<coche: Citröen C3> <tipo: CocheNormal> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:350.0)>
++++ Con estas condiciones es capaz de correr a 78.68 km/hora +++
+¡¡¡ Auriol perdió la concentración a falta de 16.68 minutos para terminar !!!
+¡¡¡ En el momento del despiste llevaba en carrera 100.0 minutos !!!
++++ El combustible del Citröen C3 tras la carrera es 250.0 +++
+@@@
+@@@
+¡¡¡ Auriol es DESCALIFICADO del campeonato por alcanzar el límite de abandonos(1) !!!
+@@@
+
+@@@ Piloto 2 de 9
+<piloto:Blomquist> <tipo: PilotoNovato> <dest: 0.7> <conc: DESPISTADO(90.0)> <descalificado:false> con 
+<coche: Seat Arona> <tipo: CocheNormal> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:350.0)>
++++ Con estas condiciones es capaz de correr a 70.61 km/hora +++
+¡¡¡ Blomquist perdió la concentración a falta de 40.01 minutos para terminar !!!
+¡¡¡ En el momento del despiste llevaba en carrera 90.0 minutos !!!
++++ El combustible del Seat Arona tras la carrera es 260.0 +++
+@@@
+@@@
+¡¡¡ Blomquist es DESCALIFICADO del campeonato por alcanzar el límite de abandonos(1) !!!
+@@@
+
+@@@ Piloto 3 de 9
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:false> con 
+<coche: Peugeot 3008> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: NORMAL(440.0)(actual:440.0)>> <nitroPendiente: 80.0>
++++ Con estas condiciones es capaz de correr a 94.74 km/hora +++
++++ El Peugeot 3008 usa 18.95 de nitro para alcanzar 113.69 km/hora y el nitro restante es 61.05 +++
++++ Kankunnen termina la carrera en 80.75 minutos +++
++++ El combustible del Peugeot 3008 tras la carrera es 359.25 +++
+@@@
+@@@ Piloto 4 de 9
+<piloto:Loeb> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false> con 
+<coche: Citröen C4> <tipo: CocheRapido> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:350.0)>> <nitroPendiente: 80.0>
++++ Con estas condiciones es capaz de correr a 82.72 km/hora +++
++++ El Citröen C4 usa 16.54 de nitro para alcanzar 99.26 km/hora y el nitro restante es 63.46 +++
++++ Loeb termina la carrera en 92.48 minutos +++
++++ El combustible del Citröen C4 tras la carrera es 257.52 +++
+@@@
+@@@ Piloto 5 de 9
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false> con 
+<coche: Citröen C5> <tipo: CocheResistente> <vel_teó: RAPIDA(230.0)> <comb: ELEFANTE(480.0)(actual:480.0)>> <reserva: 100.0>
++++ Con estas condiciones es capaz de correr a 100.88 km/hora +++
++++ Makinen termina la carrera en 91.0 minutos +++
++++ El combustible del Citröen C5 tras la carrera es 389.0 +++
+@@@
+@@@ Piloto 6 de 9
+<piloto:McRae> <tipo: PilotoEstrella> <dest: 0.93> <conc: CONCENTRADO(110.0)> <descalificado:false> con 
+<coche: Seat Tarraco> <tipo: CocheResistente> <vel_teó: TORTUGA(200.0)> <comb: GENEROSO(460.0)(actual:460.0)>> <reserva: 100.0>
++++ Con estas condiciones es capaz de correr a 81.58 km/hora +++
+¡¡¡ McRae perdió la concentración a falta de 2.53 minutos para terminar !!!
+¡¡¡ En el momento del despiste llevaba en carrera 110.0 minutos !!!
++++ El combustible del Seat Tarraco tras la carrera es 350.0 +++
+@@@
+@@@
+¡¡¡ McRae es DESCALIFICADO del campeonato por alcanzar el límite de abandonos(1) !!!
+@@@
+
+@@@ Piloto 7 de 9
+<piloto:Ogier> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false> con 
+<coche: Seat Ateca> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: GENEROSO(460.0)(actual:460.0)>> <nitroPendiente: 80.0>
++++ Con estas condiciones es capaz de correr a 86.32 km/hora +++
++++ El Seat Ateca usa 17.26 de nitro para alcanzar 103.58 km/hora y el nitro restante es 62.74 +++
++++ Ogier termina la carrera en 88.63 minutos +++
++++ El combustible del Seat Ateca tras la carrera es 371.37 +++
+@@@
+@@@ Piloto 8 de 9
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false> con 
+<coche: Peugeot 5008> <tipo: CocheResistente> <vel_teó: LENTA(210.0)> <comb: GENEROSO(460.0)(actual:460.0)>> <reserva: 100.0>
++++ Con estas condiciones es capaz de correr a 92.11 km/hora +++
++++ Sainz termina la carrera en 99.66 minutos +++
++++ El combustible del Peugeot 5008 tras la carrera es 360.34 +++
+@@@
+@@@ Piloto 9 de 9
+<piloto:Sordo> <tipo: PilotoNovato> <dest: 0.7> <conc: DESPISTADO(90.0)> <descalificado:false> con 
+<coche: Peugeot 2008> <tipo: CocheNormal> <vel_teó: NORMAL(220.0)> <comb: ESCASO(350.0)(actual:350.0)>
++++ Con estas condiciones es capaz de correr a 67.54 km/hora +++
+¡¡¡ Sordo perdió la concentración a falta de 45.92 minutos para terminar !!!
+¡¡¡ En el momento del despiste llevaba en carrera 90.0 minutos !!!
++++ El combustible del Peugeot 2008 tras la carrera es 260.0 +++
+@@@
+@@@
+¡¡¡ Sordo es DESCALIFICADO del campeonato por alcanzar el límite de abandonos(1) !!!
+@@@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++ Clasificación final de la carrera en Finlandia ++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@ Posición(1): Kankunnen - Tiempo: 80.75 minutos - Puntos: 10 @@@
+@@@ Posición(2): Ogier - Tiempo: 88.63 minutos - Puntos: 8 @@@
+@@@ Posición(3): Makinen - Tiempo: 91.0 minutos - Puntos: 6 @@@
+@@@ Posición(4): Loeb - Tiempo: 92.48 minutos - Puntos: 4 @@@
+@@@ Posición(5): Sainz - Tiempo: 99.66 minutos - Puntos: 2 @@@
+¡¡¡ Ha abandonado Sordo - Tiempo: -45.92 - Puntos: 0 - Además ha sido descalificado para el resto del Campeonato !!!
+¡¡¡ Ha abandonado Blomquist - Tiempo: -40.01 - Puntos: 0 - Además ha sido descalificado para el resto del Campeonato !!!
+¡¡¡ Ha abandonado Auriol - Tiempo: -16.68 - Puntos: 0 - Además ha sido descalificado para el resto del Campeonato !!!
+¡¡¡ Ha abandonado McRae - Tiempo: -2.53 - Puntos: 0 - Además ha sido descalificado para el resto del Campeonato !!!
+
+********************************************************************************************************
+*** CARRERA<2> EN <circuito:Cerdeña> <cond: Gravilla Mojado> <comp: ALTA(original:1.5)(actual:1.82)> <dist: CORTA(original:250.0)(actual:201.88)> ***
+********************************************************************************************************
+********************************************************************************************************
+******************************** Pilotos que van a competir en Cerdeña *******************************
+**********************************************************************************************************
+<piloto:Loeb> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false>
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:false>
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<piloto:Ogier> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++ Comienza la carrera en Cerdeña ++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@ Piloto 1 de 5
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false> con 
+<coche: Peugeot 5008> <tipo: CocheResistente> <vel_teó: LENTA(210.0)> <comb: GENEROSO(460.0)(actual:360.34)>> <reserva: 100.0>
++++ Con estas condiciones es capaz de correr a 115.38 km/hora +++
++++ Sainz termina la carrera en 104.98 minutos +++
++++ El combustible del Peugeot 5008 tras la carrera es 255.36 +++
+@@@
+@@@ Piloto 2 de 5
+<piloto:Loeb> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false> con 
+<coche: Citröen C3> <tipo: CocheNormal> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:250.0)>
++++ Con estas condiciones es capaz de correr a 103.63 km/hora +++
+¡¡¡ Loeb perdió la concentración a falta de 16.89 minutos para terminar !!!
+¡¡¡ En el momento del despiste llevaba en carrera 100.0 minutos !!!
++++ El combustible del Citröen C3 tras la carrera es 150.0 +++
+@@@
+@@@
+¡¡¡ Loeb es DESCALIFICADO del campeonato por alcanzar el límite de abandonos(1) !!!
+@@@
+
+@@@ Piloto 3 de 5
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false> con 
+<coche: Citröen C4> <tipo: CocheRapido> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:257.52)>> <nitroPendiente: 63.46>
++++ Con estas condiciones es capaz de correr a 126.37 km/hora +++
++++ El Citröen C4 usa 25.27 de nitro para alcanzar 151.64 km/hora y el nitro restante es 38.19 +++
++++ Makinen termina la carrera en 79.88 minutos +++
++++ El combustible del Citröen C4 tras la carrera es 177.64 +++
+@@@
+@@@ Piloto 4 de 5
+<piloto:Ogier> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false> con 
+<coche: Seat Ateca> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: GENEROSO(460.0)(actual:371.37)>> <nitroPendiente: 62.74>
++++ Con estas condiciones es capaz de correr a 108.13 km/hora +++
++++ El Seat Ateca usa 21.63 de nitro para alcanzar 129.76 km/hora y el nitro restante es 41.11 +++
++++ Ogier termina la carrera en 93.35 minutos +++
++++ El combustible del Seat Ateca tras la carrera es 278.02 +++
+@@@
+@@@ Piloto 5 de 5
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:false> con 
+<coche: Peugeot 3008> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: NORMAL(440.0)(actual:359.25)>> <nitroPendiente: 61.05>
++++ Con estas condiciones es capaz de correr a 118.68 km/hora +++
++++ El Peugeot 3008 usa 23.74 de nitro para alcanzar 142.42 km/hora y el nitro restante es 37.31 +++
++++ Kankunnen termina la carrera en 85.05 minutos +++
++++ El combustible del Peugeot 3008 tras la carrera es 274.2 +++
+@@@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++ Clasificación final de la carrera en Cerdeña ++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@ Posición(1): Makinen - Tiempo: 79.88 minutos - Puntos: 10 @@@
+@@@ Posición(2): Kankunnen - Tiempo: 85.05 minutos - Puntos: 8 @@@
+@@@ Posición(3): Ogier - Tiempo: 93.35 minutos - Puntos: 6 @@@
+@@@ Posición(4): Sainz - Tiempo: 104.98 minutos - Puntos: 4 @@@
+¡¡¡ Ha abandonado Loeb - Tiempo: -16.89 - Puntos: 0 - Además ha sido descalificado para el resto del Campeonato !!!
+
+********************************************************************************************************
+*** CARRERA<3> EN <circuito:Córcega> <cond: Nocturno Gravilla> <comp: MEDIA(original:1.25)(actual:1.58)> <dist: INTERMEDIA(original:275.0)(actual:209.0)> ***
+********************************************************************************************************
+********************************************************************************************************
+******************************** Pilotos que van a competir en Córcega *******************************
+**********************************************************************************************************
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:false>
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<piloto:Ogier> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++ Comienza la carrera en Córcega ++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@ Piloto 1 de 4
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false> con 
+<coche: Peugeot 2008> <tipo: CocheNormal> <vel_teó: NORMAL(220.0)> <comb: ESCASO(350.0)(actual:260.0)>
++++ Con estas condiciones es capaz de correr a 139.24 km/hora +++
++++ Sainz termina la carrera en 90.06 minutos +++
++++ El combustible del Peugeot 2008 tras la carrera es 169.94 +++
+@@@
+@@@ Piloto 2 de 4
+<piloto:Ogier> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:false> con 
+<coche: Seat Tarraco> <tipo: CocheResistente> <vel_teó: TORTUGA(200.0)> <comb: GENEROSO(460.0)(actual:350.0)>> <reserva: 100.0>
++++ Con estas condiciones es capaz de correr a 103.8 km/hora +++
+¡¡¡ Ogier perdió la concentración a falta de 20.81 minutos para terminar !!!
+¡¡¡ En el momento del despiste llevaba en carrera 100.0 minutos !!!
++++ El combustible del Seat Tarraco tras la carrera es 250.0 +++
+@@@
+@@@
+¡¡¡ Ogier es DESCALIFICADO del campeonato por alcanzar el límite de abandonos(1) !!!
+@@@
+
+@@@ Piloto 3 de 4
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false> con 
+<coche: Citröen C3> <tipo: CocheNormal> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:150.0)>
++++ Con estas condiciones es capaz de correr a 145.57 km/hora +++
++++ Makinen termina la carrera en 86.14 minutos +++
++++ El combustible del Citröen C3 tras la carrera es 63.86 +++
+@@@
+@@@ Piloto 4 de 4
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:false> con 
+<coche: Peugeot 3008> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: NORMAL(440.0)(actual:274.2)>> <nitroPendiente: 37.31>
++++ Con estas condiciones es capaz de correr a 136.71 km/hora +++
++++ El Peugeot 3008 usa 27.34 de nitro para alcanzar 164.05 km/hora y el nitro restante es 9.97 +++
++++ Kankunnen termina la carrera en 76.44 minutos +++
++++ El combustible del Peugeot 3008 tras la carrera es 197.76 +++
+@@@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++ Clasificación final de la carrera en Córcega ++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@ Posición(1): Kankunnen - Tiempo: 76.44 minutos - Puntos: 10 @@@
+@@@ Posición(2): Makinen - Tiempo: 86.14 minutos - Puntos: 8 @@@
+@@@ Posición(3): Sainz - Tiempo: 90.06 minutos - Puntos: 6 @@@
+¡¡¡ Ha abandonado Ogier - Tiempo: -20.81 - Puntos: 0 - Además ha sido descalificado para el resto del Campeonato !!!
+
+********************************************************************************************************
+*** CARRERA<4> EN <circuito:Chile> <cond: Gravilla> <comp: ALTA(original:1.5)(actual:1.58)> <dist: CORTA(original:250.0)(actual:237.5)> ***
+********************************************************************************************************
+********************************************************************************************************
+******************************** Pilotos que van a competir en Chile *******************************
+**********************************************************************************************************
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:false>
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++ Comienza la carrera en Chile ++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@ Piloto 1 de 3
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false> con 
+<coche: Peugeot 3008> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: NORMAL(440.0)(actual:197.76)>> <nitroPendiente: 9.97>
++++ Con estas condiciones es capaz de correr a 151.9 km/hora +++
++++ El Peugeot 3008 usa 9.97 de nitro para alcanzar 161.87 km/hora y el nitro restante es 0.0 +++
++++ Sainz termina la carrera en 88.03 minutos +++
++++ El combustible del Peugeot 3008 tras la carrera es 109.73 +++
+@@@
+@@@ Piloto 2 de 3
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false> con 
+<coche: Citröen C3> <tipo: CocheNormal> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:63.86)>
++++ Con estas condiciones es capaz de correr a 145.57 km/hora +++
+¡¡¡ El Citröen C3 se quedó sin combustible a falta de 34.03 minutos para terminar !!!
+¡¡¡ En el momento de quedarse sin combustible llevaba en carrera 63.86 minutos !!!
++++ El combustible del Citröen C3 tras la carrera es -34.03 +++
+@@@
+@@@
+¡¡¡ Makinen es DESCALIFICADO del campeonato por alcanzar el límite de abandonos(1) !!!
+@@@
+
+@@@ Piloto 3 de 3
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:false> con 
+<coche: Peugeot 5008> <tipo: CocheResistente> <vel_teó: LENTA(210.0)> <comb: GENEROSO(460.0)(actual:255.36)>> <reserva: 100.0>
++++ Con estas condiciones es capaz de correr a 119.62 km/hora +++
+¡¡¡ Kankunnen perdió la concentración a falta de 9.13 minutos para terminar !!!
+¡¡¡ En el momento del despiste llevaba en carrera 110.0 minutos !!!
++++ El combustible del Peugeot 5008 tras la carrera es 145.36 +++
+@@@
+@@@
+¡¡¡ Kankunnen es DESCALIFICADO del campeonato por alcanzar el límite de abandonos(1) !!!
+@@@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++ Clasificación final de la carrera en Chile ++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@@@ Posición(1): Sainz - Tiempo: 88.03 minutos - Puntos: 10 @@@
+¡¡¡ Ha abandonado Makinen - Tiempo: -34.03 - Puntos: 0 - Además ha sido descalificado para el resto del Campeonato !!!
+¡¡¡ Ha abandonado Kankunnen - Tiempo: -9.13 - Puntos: 0 - Además ha sido descalificado para el resto del Campeonato !!!
+
+********************************************************************************************************
+*** CARRERA<5> EN <circuito:Portugal> <cond: Gravilla Nocturno> <comp: MEDIA(original:1.25)(actual:1.57)> <dist: INTERMEDIA(original:275.0)(actual:209.0)> ***
+********************************************************************************************************
+¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+¡¡¡ No se celebra esta carrera ni la(s) siguiente(s) por no haber pilotos para competir !!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+****************************************************
+**************** FIN DEL CAMPEONATO ****************
+****************************************************
+********** CLASIFICACIÓN FINAL DE PILOTOS **********
+****************************************************
+@@@ Posición(1): Sainz - Puntos Totales: 22 @@@
+Carrera(Finlandia) - Puntos:2 - Tiempo:99.66 minutos
+Carrera(Cerdeña) - Puntos:4 - Tiempo:104.98 minutos
+Carrera(Córcega) - Puntos:6 - Tiempo:90.06 minutos
+Carrera(Chile) - Puntos:10 - Tiempo:88.03 minutos
+
+****************************************************
+************** PILOTOS DESCALIFICADOS **************
+****************************************************
+--- Piloto Descalificado: Kankunnen - Puntos Totales Anulados: 28 ---
+Carrera(Finlandia) - Puntos:10 - Tiempo:80.75 minutos
+Carrera(Cerdeña) - Puntos:8 - Tiempo:85.05 minutos
+Carrera(Córcega) - Puntos:10 - Tiempo:76.44 minutos
+Carrera(Chile) - Puntos:0 - Tiempo:-9.13 minutos
+
+--- Piloto Descalificado: Makinen - Puntos Totales Anulados: 24 ---
+Carrera(Finlandia) - Puntos:6 - Tiempo:91.0 minutos
+Carrera(Cerdeña) - Puntos:10 - Tiempo:79.88 minutos
+Carrera(Córcega) - Puntos:8 - Tiempo:86.14 minutos
+Carrera(Chile) - Puntos:0 - Tiempo:-34.03 minutos
+
+--- Piloto Descalificado: Ogier - Puntos Totales Anulados: 14 ---
+Carrera(Finlandia) - Puntos:8 - Tiempo:88.63 minutos
+Carrera(Cerdeña) - Puntos:6 - Tiempo:93.35 minutos
+Carrera(Córcega) - Puntos:0 - Tiempo:-20.81 minutos
+
+--- Piloto Descalificado: Loeb - Puntos Totales Anulados: 4 ---
+Carrera(Finlandia) - Puntos:4 - Tiempo:92.48 minutos
+Carrera(Cerdeña) - Puntos:0 - Tiempo:-16.89 minutos
+
+--- Piloto Descalificado: Sordo - Puntos Totales Anulados: 0 ---
+Carrera(Finlandia) - Puntos:0 - Tiempo:-45.92 minutos
+
+--- Piloto Descalificado: McRae - Puntos Totales Anulados: 0 ---
+Carrera(Finlandia) - Puntos:0 - Tiempo:-2.53 minutos
+
+--- Piloto Descalificado: Blomquist - Puntos Totales Anulados: 0 ---
+Carrera(Finlandia) - Puntos:0 - Tiempo:-40.01 minutos
+
+--- Piloto Descalificado: Auriol - Puntos Totales Anulados: 0 ---
+Carrera(Finlandia) - Puntos:0 - Tiempo:-16.68 minutos
+
+****************************************************
+******** CLASIFICACIÓN FINAL DE ESCUDERÍAS *********
+****************************************************
+@@@ Posición(1) Peugeot con 22.0 puntos @@@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% PEUGEOT %%%
+<piloto:Sainz> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:false>
+<piloto:Sordo> <tipo: PilotoNovato> <dest: 0.7> <conc: DESPISTADO(90.0)> <descalificado:true>
+<piloto:Kankunnen> <tipo: PilotoExperimentado> <dest: 0.9> <conc: CONCENTRADO(110.0)> <descalificado:true>
+<coche: Peugeot 2008> <tipo: CocheNormal> <vel_teó: NORMAL(220.0)> <comb: ESCASO(350.0)(actual:169.94)>
+<coche: Peugeot 5008> <tipo: CocheResistente> <vel_teó: LENTA(210.0)> <comb: GENEROSO(460.0)(actual:145.36)>> <reserva: 100.0>
+<coche: Peugeot 3008> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: NORMAL(440.0)(actual:109.73)>> <nitroPendiente: 0.0>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+****************************************************
+************ ESCUDERIAS DESCALIFICADAS *************
+****************************************************
+¡¡¡ Escudería Descalificada: Seat con 0.0 puntos !!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% SEAT %%%
+<piloto:Blomquist> <tipo: PilotoNovato> <dest: 0.7> <conc: DESPISTADO(90.0)> <descalificado:true>
+<piloto:McRae> <tipo: PilotoEstrella> <dest: 0.93> <conc: CONCENTRADO(110.0)> <descalificado:true>
+<piloto:Ogier> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:true>
+<coche: Seat Ateca> <tipo: CocheRapido> <vel_teó: GUEPARDO(240.0)> <comb: GENEROSO(460.0)(actual:278.02)>> <nitroPendiente: 41.11>
+<coche: Seat Arona> <tipo: CocheNormal> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:260.0)>
+<coche: Seat Tarraco> <tipo: CocheResistente> <vel_teó: TORTUGA(200.0)> <comb: GENEROSO(460.0)(actual:250.0)>> <reserva: 100.0>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+¡¡¡ Escudería Descalificada: Citroen con 0.0 puntos !!!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CITROEN %%%
+<piloto:Auriol> <tipo: PilotoNovato> <dest: 0.78> <conc: NORMAL(100.0)> <descalificado:true>
+<piloto:Loeb> <tipo: PilotoExperimentado> <dest: 0.82> <conc: NORMAL(100.0)> <descalificado:true>
+<piloto:Makinen> <tipo: PilotoEstrella> <dest: 1.0> <conc: ZEN(120.0)> <descalificado:true>
+<coche: Citröen C4> <tipo: CocheRapido> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:177.64)>> <nitroPendiente: 38.19>
+<coche: Citröen C5> <tipo: CocheResistente> <vel_teó: RAPIDA(230.0)> <comb: ELEFANTE(480.0)(actual:389.0)>> <reserva: 100.0>
+<coche: Citröen C3> <tipo: CocheNormal> <vel_teó: RAPIDA(230.0)> <comb: ESCASO(350.0)(actual:-34.03)>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

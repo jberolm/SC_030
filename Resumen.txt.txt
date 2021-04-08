@@ -1,0 +1,14 @@
+Nombre: Ismael Anillo Benammi
+
+Para realizar una simulación, dependiendo de cual quieras realizar debes ejecutar las siguientes:
+  *Para una simulacion completa:CircuitoCompleto
+  *Para un fin prematuro:CampeonatoFinPrematuro
+  *Para un campeonato desierto: CampeonatoPremioDesierto
+
+Requisitos Extras:
+  *Pruebas unitarias del proyecto con JUnit, menos para Escuderia y Organizacion.
+  *Aplicación de patron de diseño decorator en circuito
+  *Uso correcto de iterator en un método de escuderia para mostrar la lista coche o lista piloto
+  *Se creó desde el inicio un git, pero no se fue actualizando el proyecto.
+
+El unico fallo visto son los comparadores, no he comprendido bien que comparadores hay que utilizar.
